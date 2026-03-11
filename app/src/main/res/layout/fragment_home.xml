@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0F0F4"
+    tools:context=".MainActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/field1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bottom_color">
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:rotationX="0"
+                android:rotationY="180"
+                app:layout_constraintBottom_toBottomOf="@+id/textfield3"
+                app:layout_constraintEnd_toEndOf="@+id/textfield3"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/textfield3"
+                app:layout_constraintTop_toTopOf="@+id/textfield3"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="?attr/homeAsUpIndicator"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+            <TextView
+                android:id="@+id/textfield3"
+                android:layout_width="296dp"
+                android:layout_height="109dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="100dp"
+                android:background="@drawable/word_frame"
+                android:text="熱門詞彙-英語"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.478"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textfield2"
+                app:layout_constraintVertical_bias="0.295" />
+
+            <TextView
+                android:id="@+id/textfield2"
+                android:layout_width="296dp"
+                android:layout_height="109dp"
+                android:layout_marginTop="52dp"
+                android:background="@drawable/word_frame"
+                android:text="熱門字彙-中文"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textfield1" />
+
+            <TextView
+                android:id="@+id/textfield1"
+                android:layout_width="296dp"
+                android:layout_height="109dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/word_frame"
+                android:text="學習生字"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.478"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/autoCompleteTextView" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="45dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginEnd="310dp"
+                app:layout_constraintBottom_toBottomOf="@+id/autoCompleteTextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/autoCompleteTextView"
+                app:srcCompat="@android:drawable/ic_search_category_default" />
+
+            <TextView
+                android:id="@+id/rawtext"
+                android:layout_width="208dp"
+                android:layout_height="85dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textfield1"
+                app:layout_constraintEnd_toEndOf="@+id/textfield1"
+                app:layout_constraintStart_toStartOf="@+id/textfield1"
+                app:layout_constraintTop_toTopOf="@+id/textfield1" />
+
+            <TextView
+                android:id="@+id/hottext_ch"
+                android:layout_width="202dp"
+                android:layout_height="88dp"
+                android:gravity="center"
+                android:text="熱門"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textfield2"
+                app:layout_constraintEnd_toEndOf="@+id/textfield2"
+                app:layout_constraintStart_toStartOf="@+id/textfield2"
+                app:layout_constraintTop_toTopOf="@+id/textfield2" />
+
+            <TextView
+                android:id="@+id/hottext_eng"
+                android:layout_width="202dp"
+                android:layout_height="88dp"
+                android:gravity="center"
+                android:text=" hot"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textfield3"
+                app:layout_constraintEnd_toEndOf="@+id/textfield3"
+                app:layout_constraintStart_toStartOf="@+id/textfield3"
+                app:layout_constraintTop_toTopOf="@+id/textfield3" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:rotationX="0"
+                android:rotationY="180"
+                app:layout_constraintEnd_toEndOf="@+id/textfield1"
+                app:layout_constraintTop_toTopOf="@+id/textfield1"
+                app:srcCompat="?attr/homeAsUpIndicator"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:rotationX="0"
+                android:rotationY="180"
+                app:layout_constraintBottom_toBottomOf="@+id/textfield2"
+                app:layout_constraintEnd_toEndOf="@+id/textfield2"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/textfield2"
+                app:layout_constraintTop_toTopOf="@+id/textfield2"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="?attr/homeAsUpIndicator"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/playball"
+                android:gravity="center"
+                android:textSize="28sp"
+                tools:layout_editor_absoluteX="-29dp"
+                tools:layout_editor_absoluteY="-181dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView"
+                android:layout_width="250dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginEnd="60dp"
+                android:background="@drawable/word_frame"
+                android:hint="Search"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColorHint="#292727"
+                android:ems="10"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="SpeakableTextPresentCheck"				/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Adjustment</string>
+    <string name="application">SignLanguage</string>
+    <string name="welcome">Welcome!</string>
+    <string name="Camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="Others">Others</string>
+    <string name="open_menu">Open</string>
+    <string name="close_menu">Close</string>
+    <string name="setting">Setting</string>
+    <string name="text_size">FontSize</string>
+    <string name="type">Language</string>
+    <string name="seekBar">seekBar</string>
+    <string name="spin_size">spin_size</string>
+    <string name="email">Email</string>
+    <string name="login">Sign up/Sign in</string>
+    <string name="logout">logout</string>
+    <string name="btn_chart">suggestion</string>
+    <string name="thankslist">contributor list</string>
+    <string name="PP">privacy policy</string>
+    <string name="version">ver0.0.0</string>
+    <string-array name="language_array">
+        <item>chinese</item>
+        <item>english</item>
+    </string-array>
+    <string-array name="size_array">
+        <item>small</item>
+        <item>medium</item>
+        <item>large</item>
+    </string-array>
+</resources>

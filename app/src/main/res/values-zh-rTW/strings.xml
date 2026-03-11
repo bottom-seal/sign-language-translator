@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">手語即時通</string>
+    <string name="application">手語字典</string>
+    <string name="welcome">哈囉</string>
+    <string name="Camera">相機</string>
+    <string name="gallery">畫布</string>
+    <string name="Others">其他</string>
+    <string name="open_menu">開啟</string>
+    <string name="close_menu">關閉</string>
+    <string name="setting">設定</string>
+    <string name="text_size">字體大小</string>
+    <string name="type">語言</string>
+    <string name="seekBar">滑桿</string>
+    <string name="spin_size">調大小</string>
+    <string name="email">信箱</string>
+    <string name="login">註冊/登入</string>
+    <string name="logout">登出 </string>
+    <string name="btn_chart">提出改善建議</string>
+    <string name="thankslist">銘謝名單</string>
+    <string name="PP">隱私政策</string>
+    <string name="version">版本0.0.0</string>
+    <string-array name="language_array">
+        <item>中文</item>
+        <item>英文</item>
+    </string-array>
+    <string-array name="size_array">
+        <item>小</item>
+        <item>標準</item>
+        <item>大</item>
+    </string-array>
+</resources>

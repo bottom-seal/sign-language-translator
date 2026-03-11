@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/left_bubble"
+        android:padding="10dp"
+        android:textColor="@android:color/white" />
+    <TextView
+        android:id="@+id/extraMessageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="start"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:background="@drawable/left_bubble"
+        android:textColor="@android:color/white"
+        android:visibility="gone"/>
+
+</LinearLayout>

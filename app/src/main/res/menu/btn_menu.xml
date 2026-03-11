@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="HOME"
+        android:icon="@drawable/house_icon"
+        android:id="@+id/btnHome"
+        />
+
+    <item
+        android:title="SIGN"
+        android:icon="@drawable/scan_icon"
+        android:id="@+id/btnSign"
+        />
+    <item
+        android:title="CONTEST"
+        android:icon="@drawable/trophy_icon"
+        android:id="@+id/btnContest"
+        />
+    <item
+        android:title="SETTINGS"
+        android:icon="@drawable/setting_icon"
+        android:id="@+id/btnSettings"
+        />
+</menu>
